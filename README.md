@@ -15,7 +15,13 @@ Welcome to the official website of **CodeCelix** — a modern software developme
 
 ---
 
-Steps to Contribute:
+## After Forking/Cloning:
+- cd CodeCelix_Official_Website
+- npm i (to install all dependencies)
+- npm run dev
+- So Simple
+
+## Steps to Contribute:
 - Click the "Fork" button on the top right of this repo to create a copy under your GitHub account.
 - git clone https://github.com/your-username/codecelix-website.git
 - cd codecelix-website
@@ -29,7 +35,11 @@ Steps to Contribute:
 - Add a meaningful title and description
 - Click “Create pull request”
 
-Review & Merge:
+---
+
+## Review & Merge:
 I will review your PR, suggest changes if needed, and merge it after approval.
 
-Note: To keep our codebase clean and stable, direct push to main is not allowed. All changes must go through a pull request (PR).
+---
+
+#Note: To keep our codebase clean and stable, direct push to main is not allowed. All changes must go through a pull request (PR).
