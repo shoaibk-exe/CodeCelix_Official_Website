@@ -42,4 +42,4 @@ I will review your PR, suggest changes if needed, and merge it after approval.
 
 ---
 
-#Note: To keep our codebase clean and stable, direct push to main is not allowed. All changes must go through a pull request (PR).
+## Note: To keep our codebase clean and stable, direct push to main is not allowed. All changes must go through a pull request (PR).
