@@ -42,4 +42,17 @@ I will review your PR, suggest changes if needed, and merge it after approval.
 
 ---
 
+## How to Get the Latest Code from Main Repo and Continue Your Work
+- If you're not already inside your project folder, go to it: (cd CodeCelix_Official_Website)
+- Add the Main Repo as "Upstream" (Only once do this) i.e., (git remote add upstream https://github.com/QasimFullStackDeveloper/CodeCelix_Official_Website.git)
+- You can check if it worked: (git remote -v)
+- git fetch upstream
+- git checkout main
+- git merge upstream/main
+- git push origin main
+- Now go back to the branch you were working in: (git checkout feature/your-feature-name)
+- git merge main
+
+---
+
 ## Note: To keep our codebase clean and stable, direct push to main is not allowed. All changes must go through a pull request (PR).
