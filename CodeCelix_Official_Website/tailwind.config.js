@@ -1,17 +1,15 @@
-// /** @type {import('tailwindcss').Config} */
-// export default {
-//   content: [],
-//   theme: {
-//     extend: {},
-//   },
-//   plugins: [],
-// }
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  theme: {
-    extend: {},
+   theme: {
+    extend: {
+      fontFamily: {
+        inter: ['Inter', 'sans-serif'],    // Custom Utility: font-inter
+        roboto: ['Roboto', 'sans-serif'],  // Custom Utility: font-roboto
+        poppins: ['Poppins', 'sans-serif'], // Custom Utility: font-poppins
+        dmSans: ['DM Sans', 'sans-serif'], // Custom Utility: font-dm-sans
+      },
+    },
   },
   plugins: [],
 }

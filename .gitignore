@@ -18,6 +18,8 @@ yarn-error.log*
 # IDE specific (VSCode, WebStorm, etc.)
 .vscode/
 .idea/
+.vs/
+.vs
 
 # OS generated
 .DS_Store
