@@ -5,7 +5,7 @@ export default function HeroSection() {
   return (
     <section
       id="home"
-      className="relative bg-gradient-to-br from-red-50 to-red-100 min-h-screen flex items-center">
+      className="relative bg-gradient-to-br from-red-50 to-red-100 min-h-screen flex items-center font-roboto">
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
@@ -17,7 +17,7 @@ export default function HeroSection() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
-            <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
+            <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight font-poppins">
               Innovative
               <span className="text-[#922e2e]"> Tech Solutions</span>
               <br />
@@ -31,7 +31,7 @@ export default function HeroSection() {
               for businesses worldwide.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 font-dmSans">
               <button className="bg-[#922e2e] text-white px-8 py-4 rounded-full hover:bg-[#7a2525] transition-colors font-semibold text-lg whitespace-nowrap cursor-pointer">
                 Get Started Today
               </button>
@@ -42,15 +42,15 @@ export default function HeroSection() {
 
             <div className="flex items-center space-x-8 pt-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-[#922e2e]">500+</div>
+                <div className="text-3xl font-bold text-[#922e2e] font-poppins">500+</div>
                 <div className="text-gray-600">Projects Completed</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-[#922e2e]">98%</div>
+                <div className="text-3xl font-bold text-[#922e2e] font-poppins">98%</div>
                 <div className="text-gray-600">Client Satisfaction</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-[#922e2e]">24/7</div>
+                <div className="text-3xl font-bold text-[#922e2e] font-poppins">24/7</div>
                 <div className="text-gray-600">Support Available</div>
               </div>
             </div>
